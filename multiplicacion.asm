@@ -67,20 +67,10 @@ mult:
     GOTO mult
     GOTO resultado
     
-;    mult:
-;	MOVF A, 0
-;;	ADDLW R
-;;	ADDLW PORTB
-;	ADDWF PORTB, 0
-;	MOVWF PORTB
-;	DECFSZ E, 1
-;	goto mult
-;	goto resultado
-    
     resultado:
-;	MOVF R, 0
-;	MOVWF PORTB
-	NOP
-	NOP
+     ;MOVF R, 0
+     ;MOVWF PORTB
+     NOP
+     NOP
 			
 END
